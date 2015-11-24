@@ -28,7 +28,8 @@ public class Tester {
        // LayoutPanel p = new LayoutPanel();       
 
        // BankPanel p = new BankPanel();                      // the Bank GUI
-        DrawingLines p = new DrawingLines();
+        //DrawingLines p = new DrawingLines();
+        Dimmer p = new Dimmer();
         frame.add(p);
         frame.setVisible(true);
 
