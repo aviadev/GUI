@@ -19,7 +19,7 @@ public class Tester {
     {
         JFrame frame = new JFrame("Testing");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 500);
+        frame.setSize(500, 200);
         // createing the customized panels:
 	//HelloPanel p = new HelloPanel();		// Simple label and buttons
        //  CounterPanel p = new CounterPanel();        	// counts button's presses'
@@ -29,7 +29,8 @@ public class Tester {
 
        // BankPanel p = new BankPanel();                      // the Bank GUI
         //DrawingLines p = new DrawingLines();
-        Dimmer p = new Dimmer();
+        ApplicationForm p = new ApplicationForm();
+       // Dimmer p = new Dimmer();
         frame.add(p);
         frame.setVisible(true);
 
