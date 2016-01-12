@@ -17,7 +17,7 @@ public class Tester {
     
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("Testing");
+       JFrame frame = new JFrame("Testing");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 200);
         // createing the customized panels:
@@ -29,11 +29,11 @@ public class Tester {
 
        // BankPanel p = new BankPanel();                      // the Bank GUI
         //DrawingLines p = new DrawingLines();
-        ApplicationForm p = new ApplicationForm();
+       ApplicationForm p = new ApplicationForm();
        // Dimmer p = new Dimmer();
         frame.add(p);
         frame.setVisible(true);
-
+       // Generics generics = new Generics();
 	//dialogBoxes();
     }
     public static void dialogBoxes()
